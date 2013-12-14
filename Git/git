@@ -1,3 +1,14 @@
+Git your identity
+
+$ git config --global user.name "isaacrael"
+$ git config --global user.email "grael@comcast.net"
+
+Git Checking Your Settings
+
+git config --list
+
+
+
 Git common day to day process
 git status
 git add <filenames> # or *.* or * can be used in place of <filenames>
@@ -15,7 +26,7 @@ git push -u origin master
 
 Push an existing repository from the command line
 git remote add origin https://github.com/isaacrael/python.git
-git push -u origin master 
+git push -u origin master # or git push isaac master
 
 Git Clone Operation
 
@@ -34,4 +45,6 @@ git fetch isaac
 Git Graphical Interfaces
 
 gitk&
+
+git mergetool   # starts P4Merge which lets you resolve branch merge conflicts with that GUI
 
