@@ -12,7 +12,7 @@ git config --list
 Git common day to day process
 git status
 git add <filenames> # or *.* or * can be used in place of <filenames>
-git commit
+git commit  # commit your changes
 git push -u origin master
 
 
@@ -31,6 +31,15 @@ git push -u origin master # or git push isaac master
 Git Clone Operation
 
 git clone https://github.com/isaacrael/python.git python # Adds top level directory called python to your project
+
+
+Git Pull Operation
+
+git init # Once when initializing a new project
+git remote add isaac https://github.com/isaacrael/python.git # adds a remote with shortname isaac
+git remote -v # displays your remotes
+git pull isaac # Pulls changes from the repository with shortname isaac
+
 
 
 Git Fetch Operation 
