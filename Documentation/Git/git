@@ -53,6 +53,8 @@ git fetch isaac
 
 Git Graphical Interfaces
 
+git&
+
 gitk&
 
 git mergetool   # starts P4Merge which lets you resolve branch merge conflicts with that GUI
