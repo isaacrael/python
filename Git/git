@@ -1,6 +1,6 @@
 Git common day to day process
 git status
-git add <filenames>
+git add <filenames> # or *.* or * can be used in place of <filenames>
 git commit
 git push -u origin master
 
