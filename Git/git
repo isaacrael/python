@@ -19,4 +19,19 @@ git push -u origin master
 
 Git Clone Operation
 
+git clone https://github.com/isaacrael/python.git python # Adds top level directory called python to your project
+
+
+Git Fetch Operation 
+
+open git terminal window from application explorer in Aptana
+cd to the directory where the project is located
+git init
+git remote add isaac https://github.com/isaacrael/python.git
+git fetch isaac
+
+
+Git Graphical Interfaces
+
+gitk&
 
